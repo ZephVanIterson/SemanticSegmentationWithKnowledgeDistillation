@@ -1,0 +1,7 @@
+python test.py -m s -b 8
+python test.py -m r -b 8
+python test.py -m f -b 8
+python pretrained_test.py -m t -b 8
+
+First 3 are to test the solo model, model with response-based knowledge distillation, and model with feature-based knowledge distillation
+Last 1 is to test the pretrained ResNet50 model

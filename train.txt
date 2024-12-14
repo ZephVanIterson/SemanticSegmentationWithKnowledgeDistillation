@@ -1,0 +1,7 @@
+python train.py -e 40 -b 16
+python knowledge_distillation.py -e 40 -b 16
+python feature_based.py -e 40 -b 16
+
+First one to train the model on its own
+Second one to train with response-based knowledge distillation
+Third one to train with feature-based knowledge distillation
